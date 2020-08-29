@@ -5,3 +5,9 @@ def print_square():
         turtle.forward(100)
         turtle.left(90)
 print_square()
+
+def print_triangle():
+    for i in range(3):
+        turtle.forward(100)
+        turtle.left(120)
+
